@@ -1,0 +1,7 @@
+{
+  "forms": {
+    "list_pet": "https://docs.google.com/forms/d/FORM_ID_1",
+    "adoption_interest": "https://docs.google.com/forms/d/FORM_ID_2",
+    "volunteer": "https://docs.google.com/forms/d/FORM_ID_3"
+  }
+}

@@ -1,0 +1,5 @@
+
+body { font-family: Arial, sans-serif; margin: 2rem; }
+header { display: flex; justify-content: space-between; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 1rem; }
+.card { border: 1px solid #ccc; padding: 1rem; cursor: pointer; }
