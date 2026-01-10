@@ -1,5 +1,62 @@
 
-body { font-family: Arial, sans-serif; margin: 2rem; }
-header { display: flex; justify-content: space-between; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 1rem; }
-.card { border: 1px solid #ccc; padding: 1rem; cursor: pointer; }
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+header {
+  background: #2f855a;
+  color: white;
+  padding: 1rem 2rem;
+}
+header nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.container {
+  padding: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+  gap: 1.5rem;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+.badge {
+  background: #e53e3e;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.section {
+  margin-top: 2rem;
+}
+.button {
+  display: inline-block;
+  background: #2f855a;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.list {
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+}
+.list div {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}

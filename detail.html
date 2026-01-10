@@ -6,8 +6,20 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="detail"></div>
-  <a id="adoptLink" target="_blank">I'm Interested</a>
-  <script src="app.js"></script>
+<header>
+  <h1 id="petName"></h1>
+</header>
+<div class="container">
+  <img id="petImage" style="max-width:400px;border-radius:8px;">
+  <p id="petInfo"></p>
+
+  <a id="adoptLink" class="button" target="_blank">I'm Interested</a>
+
+  <div class="section">
+    <h3>Interested Adopters (mock)</h3>
+    <div class="list" id="interests"></div>
+  </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
