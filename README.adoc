@@ -1,75 +1,8 @@
 = Pet Adoption Portal
-Saloni <saloni@petmatch.in>; Siraj <siraj@petmatch.in>
 
-== Motivation
+This repo contains the idea docs and source code to an MVP for the portal.
 
-We have been fostering kittens rescued by some good samaritans who connect us with potential adopters until they are adopted.
-Having seen the journey of a pet being passed around between foster homes, we see a dearth of resources to manage the complex process and maximize the pets getting adopted.
-We want to build a platform which acts as a nexus between fosterers, adopters, rescuers to find each other and match up on schedule, location, interests, and priority.
-We believe this can make more pets adopted to parents who are more aware of the special needs, reduce the burn-out of the activists and rescuers, and promote fostering culture with reduced foster-failure.
-
-== Good Samaritan Personas
-
-In the journey of a pet being passed around between foster homes, it is important to note the actors and their roles on this portal.
-
-=== Rescuers and Activists
-
-The rescuers connect with other animal activists, and healthcare providers to get leads and medical attention when required.
-They also manage a few instagram handles and other social media outreach channels to find people to foster or adopt the pets.
-They screen the foster and adoption applicants, often with a detailed form and verify their information.
-They connect adoption leads with the foster homes and usually finally decide who the pets go to.
-
-=== Foster Parents
-
-Any individual with the know-how and passion to care for pets can opt for fostering.
-Typically the time-span required is 2-3 weeks for kittens and may go higher if the pet is grown or has special needs.
-The adoption leads vary largely based on city, breed, health, looks of the pet.
-These factors also influence the fostering willingness of the applicants.
-Foster parents also have their personal constraints in terms of the number of pets, duration, or caregiving capabilities.
-
-=== Adopters
-
-The prospective adopter wants to go over a list of available pets and match with the one they resonate well.
-It is important to have an emotional connect with the pet.
-They would like to see a pet's back-story and know certain biodata of the pet they are willing to adopt.
-They will have to submit their own detailed information covering questions about the living conditions and willingness to give care and support.
-
-== Pets
-
-Often times, the decision to adopt does not happen on the portal itself.
-The good samaritans need to connect and discuss matters that can not be filled up in a form.
-The behavioural aspects of the pets play a major role in the decision making process.
-
-=== Pets attributes
-
-* Profile picture
-* Name and one-line description
-* More Pictures and Videos
-* Back story
-* Behaviour notes
-* Breed, Age, Gender
-* Vaccination details
-* Spayed / Neuter status
-* Eating habits
-* Special needs
-
-== Interactions
-
-This section explains the interactions that the actors do on the portal.
-
-=== Adopters
-
-. Adopters want to scroll on a collage of available pet images
-. Adopters can see more details of the pets in their profile pages
-. Adopters can submit interest to adopt by filling up a short summary of their personal connection with the pet
-. Adopters need to submit a detailed questionnaire covering the living conditions, previous experiences, willingness to go far financially and emotionally in caregiving and support
-. Adopters need to consent to staying in touch with and responding to the original rescuers in the pets' acclimitisation journey
-
-=== Foster Parents
-
-* Name
-* Contact details
-* Preference of animals (small dogs, cats only, etc.)
-* Caregiving needs (open to vet visits, volunteering)
-* Open to staying in touch with the rescuers
+* link:docs/src/overview.adoc[Overview]
+* link:docs/src/mvp.adoc[MVP]
+* link:docs/src/future.adoc[Future Plan]
 

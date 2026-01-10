@@ -1,0 +1,47 @@
+= Portal Webapp MVP
+Saloni <saloni@petmatch.in>; Siraj <siraj@petmatch.in>
+v0.1.0, 2026-01-11
+
+== Views
+
+The Webapp shall have tabs for Adopters and Activists
+
+Adopters::
+
+* browse images and details of the available pets (catalog page)
+* select and read details of a pet (pet profile page)
+* click on a button called "Adopt" (opens a bottom sheet or a modal)
+* adds Name, Email, and a short _Statement of Purpose_ (SOP)
+* clicks Submit and it gets added to a proverbial "Cart"
+
+Activists::
+
+* browse images and details of the available pets (catalog page)
+* also show a number of interests received for that pet as a counter on the pet image (catalog page itself)
+* detail page for the pets now also shows the interested parties with their names and contacts and SOPs visible
+* the name shall be linked to another page showing the adopters details (adopter profile page)
+
+== Setup
+
+For the MVP we want to use a simple Google Form + Google Sheets setup without investing efforts in making a supabase or other cloud tables.
+
+=== Pet database
+
+We will create a bootstrap database of pets with all attributes filled using a Google Form and an associated Google Sheet.
+
+* all attributes for the pet
+* rescuers contact details
+
+NOTE: The form will also contain images and videos file upload, which gets added to a drive link available in the Sheet under a column
+
+=== Adopter database
+
+The adopter database will be created by the registration form by the individual adopters.
+The form will consist of their email address which can be as a key and the latest entry for any duplicates should be considered.
+This form should be embedded in the webapp.
+
+=== Interest database
+
+On clicking Submit on the bottom sheet that opens up on any pet's details page, the webapp should collect the adopters form data (name, contact, and Statement of Purpose) along with the pet ID and creates an entry in a Google Form.
+This interest will show up in a Google Sheet as each row containing one pet matched with adopter email address.
+
