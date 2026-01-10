@@ -34,14 +34,70 @@ We will create a bootstrap database of pets with all attributes filled using a G
 
 NOTE: The form will also contain images and videos file upload, which gets added to a drive link available in the Sheet under a column
 
+The form for the pet submission has the following columns (in sequence)
+
+```
+Timestamp
+Pet ID
+Pet Name
+Age
+City
+Extra Care
+Description
+Image URLs
+Status
+Foster name
+Identify as
+Phone / WhatsApp
+Animal Type
+Life Stage
+```
+
 === Adopter database
 
 The adopter database will be created by the registration form by the individual adopters.
 The form will consist of their email address which can be as a key and the latest entry for any duplicates should be considered.
 This form should be embedded in the webapp.
 
+The registration form has the following questions (in sequence)
+
+```
+Timestamp
+Email Address
+Full Name
+Age
+Phone / WhatsApp
+Address
+Why do you want to adopt?
+Have you had pets in the past?
+Your Facebook or Instagram Link
+Do you live in an Apartment or Independent House?
+If this is a rented accommodation, have you checked with your landlord for keeping pets?
+How many people live with you? Please outline their relationship with you.
+Are all members of the house consulted and agreed to adopt the pet?
+Do you or anybody in the house have any pre existing conditions or allergies?
+Number of hours the pet would be left alone at home?
+What are you planning to feed the pet?
+What is your opinion on sterilisation? 
+If you are going on vacation, who will look after the pet?
+A pet's monthly expenses would come around 5k, are you comfortable bearing these expenses?
+The average life span of a pet is around 15 years, are you okay with such long commitment?
+Are you willing to stay in touch with the rescuer post-adoption?
+Are there any circumstances under which do you think you would no longer be able to keep the pet at your home?
+```
 === Interest database
 
 On clicking Submit on the bottom sheet that opens up on any pet's details page, the webapp should collect the adopters form data (name, contact, and Statement of Purpose) along with the pet ID and creates an entry in a Google Form.
 This interest will show up in a Google Sheet as each row containing one pet matched with adopter email address.
 
+The form has the following columns (in sequence)
+
+```
+Timestamp
+Pet Name
+Pet ID
+Adopter Full Name
+Adopter Email ID
+Why are you interested in this specific pet?
+Is there anything the foster/rescuer should know?
+```
