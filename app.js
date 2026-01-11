@@ -6,7 +6,7 @@ const mockPets = [
     species: "Dog",
     age: "6 months",
     interests: 3,
-    image: "https://place-puppy.com/400x300",
+    image: "https://place-puppy.com/puppy/y:300/x:400",
     adopters: [
       {name:"Anita", contact:"anita@email.com"},
       {name:"Rahul", contact:"rahul@email.com"}
@@ -18,7 +18,7 @@ const mockPets = [
     species: "Cat",
     age: "4 months",
     interests: 1,
-    image: "https://placekitten.com/400/300",
+    image: "https://placekittens.com/400/300",
     adopters: [
       {name:"Sneha", contact:"sneha@email.com"}
     ]
